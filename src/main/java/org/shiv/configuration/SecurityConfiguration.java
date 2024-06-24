@@ -29,8 +29,12 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         // /** all
         // .hasRole("USER") for checking only user role
         //.hasAnyRole("USER","ADMIN") for adding multiple roles
+        //.antMatchers("/","static/css","static/js") for all public pages
+        //we make access from most restrictive to the least restrictive
         http.authorizeRequests()
-                .antMatchers("/**").hasRole("ADMIN")
+                .antMatchers("/admin").hasRole("ADMIN")
+                .antMatchers("/user").hasRole("USER")
+                .antMatchers("/").permitAll()
                 .and().formLogin();
     }
 
