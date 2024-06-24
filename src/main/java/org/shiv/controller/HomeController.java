@@ -14,7 +14,7 @@ public class HomeController {
     public String homeAdmin(){
         return "<h1>Welcome to Home Admin</h1>";
     }
-    @GetMapping("user/")
+    @GetMapping("/user")
     public String homeUser(){
         return "<h1>Welcome to Home User</h1>";
     }
