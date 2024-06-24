@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21f199f5-ed97-4359-835d-e7c888fb7813" name="Changes" comment="Adding Spring security to the application, it will add a default login page to the application with login password in console, userName = user(default)">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="21f199f5-ed97-4359-835d-e7c888fb7813" name="Changes" comment="Adding default username and password in application.properties">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shiv/configuration/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,12 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719217186868</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding default username and password in application.properties">
+      <option name="closed" value="true" />
+      <created>1719218014526</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719218014526</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Default Spring Web Project with HomeController (&quot;/&quot;)" />
     <MESSAGE value="Adding Spring security to the application, it will add a default login page to the application with login password in console, userName = user(default)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Spring security to the application, it will add a default login page to the application with login password in console, userName = user(default)" />
+    <MESSAGE value="Adding default username and password in application.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding default username and password in application.properties" />
   </component>
 </project>
