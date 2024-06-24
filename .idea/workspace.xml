@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21f199f5-ed97-4359-835d-e7c888fb7813" name="Changes" comment="along with configuring credentials it is mandatory to have a password encoder bean otherwise the authentication will not work and will throw runtime error">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/shiv/configuration/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/shiv/configuration/SecurityConfiguration.java" afterDir="false" />
+    <list default="true" id="21f199f5-ed97-4359-835d-e7c888fb7813" name="Changes" comment="adding multiple user credentials using method channing pattern">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719218975600</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding multiple user credentials using method channing pattern">
+      <option name="closed" value="true" />
+      <created>1719219100592</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719219100592</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,6 +127,7 @@
     <MESSAGE value="Adding default username and password in application.properties" />
     <MESSAGE value="removing default credentials &amp; adding SecurityConfiguration which extends WebSecurityConfigurerAdapter" />
     <MESSAGE value="along with configuring credentials it is mandatory to have a password encoder bean otherwise the authentication will not work and will throw runtime error" />
-    <option name="LAST_COMMIT_MESSAGE" value="along with configuring credentials it is mandatory to have a password encoder bean otherwise the authentication will not work and will throw runtime error" />
+    <MESSAGE value="adding multiple user credentials using method channing pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding multiple user credentials using method channing pattern" />
   </component>
 </project>
